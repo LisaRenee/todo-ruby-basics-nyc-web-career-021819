@@ -6,12 +6,13 @@ def assign_variable(value = "Bob")
   assign_variable(value)
 end
 
-def argue(Lisa)
+def argue("I'm right and you are wrong!")
   argue
 end
 
-def greeting("Hello", name)
-  puts greeting
+def greeting(greeting = "Hi there, ",
+name = "Bobby!")
+  greeting("greeting", name)
 end
 
 def return_a_value(phrase = "Nice")
